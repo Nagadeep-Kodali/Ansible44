@@ -11,3 +11,9 @@
     apt:
        name: tree
        state: present
+    
+  - name: i want to install git on Ubuntu16
+    apt:
+       name: git
+       state: present
+    
