@@ -4,3 +4,7 @@
   tasks:
   - name: i want to install webserver on Ubuntu16
     apt:
+     name: i want to install tree on Ubuntu16
+     apt:
+      name: tree
+      state: present
