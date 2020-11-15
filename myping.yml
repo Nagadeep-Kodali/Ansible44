@@ -2,6 +2,6 @@
 - hosts: all
   become: yes
   tasks:
-    - name: tree
+    - name: install tree
       apt:
          
