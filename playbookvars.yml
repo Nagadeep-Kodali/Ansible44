@@ -6,7 +6,7 @@
       var3: wget
     tasks: 
     - name: debuging for var1
-         debug: 
+      debug: 
          msg: "{{var1}}"
       when: ansible_os_family =="Debian"
 
