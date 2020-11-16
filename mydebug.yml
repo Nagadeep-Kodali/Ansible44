@@ -12,11 +12,11 @@
 
   - name: install git
     apt:
-      name: git
-     when: myresult.stderr ==""
+       name: git
+      when: myresult.stderr ==""
 
   - name: install tree
     apt:
-      name: tree
-     when: myresult.stderr !=""
+       name: tree
+      when: myresult.stderr !=""
   
