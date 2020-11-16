@@ -4,6 +4,11 @@
   tasks:
   - include_tasks: myfile.yml
   - name: install webserver on ubuntu
-    apt:
+      apt:
        name: apache2
        state: present
+  
+  - name: i want to copy file into webservers(ansible node)
+    template:
+      src: myindex.j2
+      dest: /var/ww/html/index.html
