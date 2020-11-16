@@ -7,7 +7,7 @@
         name: git
         state: present
     
-    - name: install git
+    - name: install tree
       apt:
         nameee: tree
         state: present
