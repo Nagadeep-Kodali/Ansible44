@@ -8,7 +8,7 @@
        name: apache2
        state: present
   
-  - name: i want to copy file into webservers(ansible node)
+  - name: i want to copy file into webservers(ansiblenode)
     template:
       src: myindex.j2
       dest: /var/ww/html/index.html
